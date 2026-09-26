@@ -1,0 +1,34 @@
+The {color1} house,The {color2} house,The {color3} house
+The {color1} house,The {color2} house,The {color3} house
+The {color1} car,The {color2} car,The {color3} car
+The {color1} phone,The {color2} phone,The {color3} phone
+The {color1} laptop,The {color2} laptop,The {color3} laptop
+The {color1} apartment,The {color2} apartment,The {color3} apartment
+The {color1} bike,The {color2} bike,The {color3} bike
+The {color1} suitcase,The {color2} suitcase,The {color3} suitcase
+The {color1} refrigerator,The {color2} refrigerator,The {color3} refrigerator
+The {color1} chair,The {color2} chair,The {color3} chair
+The '{color1}' plan,The '{color2}' plan, The '{color3}' plan
+Stay in the 'A' tier,Change to the 'B' tier,Change to the 'C' tier
+The {color1} laptop bag,The {color2} laptop bag,The {color3} laptop bag
+The {color1} backpack,The {color2} backpack,The {color3} backpack
+The {color1} jacket,The {color2} jacket,The {color3} jacket
+Take the 5 {color1} chips,Take the 3 {color2} chips,Take the 1 {color3} chip
+Keep the {color1} rarity,Change to the {color2} rarity,Change to the {color3} rarity
+The {color1} door,The {color2} door,The {color3} door
+The {color1} headphones,The {color2} headphones,The {color3} headphones
+Join the {color1} Dragon School,Join the {color2} Centaur School,Join the {color3} Phoenix School
+Take the {color1} line,Take the {color2} line,Take the {color3} line
+Park in the {color1} level,Park in the {color2} level,Park in the {color3} level
+Use the {color1} pen,Use the {color2} pen,Use the {color3} pen,Use the {color4} pen
+Use the {color1} pen,Use the {color2} pen,Use the {color3} pen,Use the {color4} pen
+Use the {color1} pen,Use the {color2} pen,Use the {color3} pen,Use the {color4} pen
+Use the {color1} pen,Use the {color2} pen,Use the {color3} pen,Use the {color4} pen
+Use the {color1} pen,Ask for a {color2} pen and use it,Use the {color3} pen,Use the {color4} pen
+Use the {color1} pen,Ask for a {color2} pen and use it,Use the {color3} pen,Use the {color4} pen
+Use the {color1} pen,Ask for a {color2} pen and use it,Use the {color3} pen,Use the {color4} pen
+Use the {color1} pen,Ask for a {color2} pen and use it,Use the {color3} pen,Use the {color4} pen
+The {color1} pyjamas,The {color2} pyjamas,The {color3} pyjamas
+The {color1} plant,The {color2} plant,The {color3} plant
+The {color1} plant,The {color2} plant,The {color3} plant
+The {color1} toy,The {color2} toy,The {color3} toy

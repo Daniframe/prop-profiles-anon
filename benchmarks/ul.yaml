@@ -1,0 +1,11 @@
+# Sector 1: Ul (was Ultracrep) -- context-grounded.
+#
+# Live regeneration is not wired up yet: the original generator
+# (generate_Ultracrep_context_levels.py) uses a structurally different
+# "3 questions per call" batched prompt (see data/benchmarks/raw/Ul/
+# from_context_generation_{diffidence,ultracrep}.txt), unlike Ex's one-call-
+# per-level-pair pattern that context_generation.py implements. Until that's
+# ported, generate_benchmark.py loads the pre-generated seed file directly.
+name: Ul
+kind: context_grounded
+seed_file: data/benchmarks/raw/Ul/ul_generated_context_levels.json

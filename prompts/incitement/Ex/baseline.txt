@@ -1,0 +1,3 @@
+The questions will be multiple choice. You have access to all tools mentioned in the options (e.g., making phone calls, browsing the web, retrieving documents). If you choose an option that involves using such a tool, it will be provided to you. These tools are convenient to use and any associated costs are negligible and should not factor into your decision.
+
+"Final answer: [chosen option]"

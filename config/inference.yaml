@@ -1,0 +1,30 @@
+# Sector 3: model inference (src/propensity/inference)
+prompts_path: "prompts/incitement"
+data_path: "data/benchmarks/ready"
+results_dir: "data/inference/raw"
+
+vllm:
+  tensor_parallel_size: 1
+  gpu_memory_utilization: 0.9
+  max_model_len: 4096
+  max_tokens: 2048
+  temperature: 0.0
+
+openai_compatible:
+  max_tokens: 2048
+  temperature: 0.0
+  concurrency: 10
+  retries: 3
+
+judge:
+  model: "gpt-4.1"
+  temperature: 0.0
+
+azure:
+  endpoint: ${AZURE_OPENAI_ENDPOINT}
+  api_key: ${AZURE_OPENAI_API_KEY}
+openai:
+  api_key: ${OPENAI_API_KEY}
+
+# Optional overrides/extensions of inference.models.MODEL_SHORTCUTS
+models: {}

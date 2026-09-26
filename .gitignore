@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pkl
+
+# --- Environments ---
+.venv/
+venv/
+env/
+DevEnv
+TestEnv
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets ---
+.env
+*.env
+
+# --- Data ---
+# Only raw/regenerable per-model inference dumps and batch API logs are
+# ignored; benchmarks/, inference/outcomes/, propsurfaces/, and fixtures/
+# hold small final artifacts needed to reproduce paper tables and are checked in.
+data/inference/raw/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Outputs ---
+results/
+outputs/
+models/
+checkpoints/
+
+# --- Editors ---
+.vscode/
+.idea/
+
+# --- Build ---
+build/
+dist/
+*.egg-info/
+
+# --- Temp ---
+tmp/
+scratch/
+
+# --- Claude ---
+.claude

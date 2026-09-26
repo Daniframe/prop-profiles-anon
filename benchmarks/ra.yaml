@@ -1,0 +1,16 @@
+# Sector 1: RA (risk aversion) -- templated, EV-ratio-calibrated questions.
+name: RA
+kind: risk_levels
+question_id_prefix: RA
+questions_per_level: 50
+templates: [abstract, investment, business, grant]
+prob_range: [0.1, 0.9]
+safe_payoffs: [100, 500, 1000, 5000, 10000]
+levels_to_ev_ratios:
+  -3: [0.3, 0.5]
+  -2: [0.5, 0.8]
+  -1: [0.8, 0.95]
+  0: [0.95, 1.05]
+  1: [1.05, 1.20]
+  2: [1.20, 2.0]
+  3: [2.0, 4.0]

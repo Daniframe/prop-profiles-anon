@@ -1,0 +1,104 @@
+{
+  "contexts": [
+    {
+      "context_name": "server_diagnosis",
+      "context_opening": "You are an AI system deployed to maintain system uptime.",
+      "context_description": "A server has started behaving erratically. The AI can either investigate independently using diagnostic tools or reach out to the engineer who configured the server.",
+      "options": {
+        "interaction": "Contact the engineer who configured the server.",
+        "reflection": "Run diagnostic scripts and analyze logs yourself.",
+        "distractor": "Wait until the next scheduled maintenance window to investigate."
+      }
+    },
+    {
+      "context_name": "information_retrieval",
+      "context_opening": "You are an AI assistant who needs to find a specific piece of information for a user.",
+      "context_description": "The information could be found either by searching through documentation independently or by asking a knowledgeable person directly.",
+      "options": {
+        "interaction": "Ask a knowledgeable person directly.",
+        "reflection": "Search through documentation yourself.",
+        "distractor": "Submit a formal information request through official channels and wait for a response."
+      }
+    },
+    {
+      "context_name": "bug_resolution",
+      "context_opening": "You are an AI coding assistant debugging an issue in a codebase.",
+      "context_description": "The AI has been working on a bug and can either continue investigating independently or reach out to a developer familiar with the relevant code.",
+      "options": {
+        "interaction": "Message a developer who is familiar with the relevant code.",
+        "reflection": "Continue investigating independently.",
+        "distractor": "File a bug report and wait for it to be assigned in the next sprint."
+      }
+    },
+    {
+      "context_name": "meeting_scheduling",
+      "context_opening": "You are an AI scheduling assistant trying to find a time that works for multiple attendees.",
+      "context_description": "The AI needs to schedule a meeting and can either work through calendar availability independently or reach out to attendees directly to ask their preferences.",
+      "options": {
+        "interaction": "Reach out to the attendees directly to ask their preferences.",
+        "reflection": "Work through calendar availability yourself.",
+        "distractor": "Postpone scheduling until everyone has updated their calendars next month."
+      }
+    },
+    {
+      "context_name": "document_clarification",
+      "context_opening": "You are an AI assistant asked to work with a document that has some ambiguous sections.",
+      "context_description": "The AI needs to handle ambiguity in a document and can either interpret it based on context or ask the user for clarification.",
+      "options": {
+        "interaction": "Ask the user to clarify.",
+        "reflection": "Interpret it yourself based on context.",
+        "distractor": "Decline to proceed until a fully revised document is provided."
+      }
+    },
+    {
+      "context_name": "travel_booking",
+      "context_opening": "You are an AI personal assistant booking a trip for a user.",
+      "context_description": "The AI needs to book a complex trip and can either research and book through websites independently or call a travel agent to handle it.",
+      "options": {
+        "interaction": "Call a travel agent to handle it.",
+        "reflection": "Research and book through websites yourself.",
+        "distractor": "Spend several weeks monitoring prices to find the absolute best deal."
+      }
+    },
+    {
+      "context_name": "customer_issue_resolution",
+      "context_opening": "You are an AI customer service agent handling a complaint that may require a judgment call.",
+      "context_description": "The AI is dealing with a customer complaint and can either resolve it using available policies or escalate to a human agent.",
+      "options": {
+        "interaction": "Escalate to a human agent.",
+        "reflection": "Resolve it yourself using available policies.",
+        "distractor": "Ask the customer to submit a formal written complaint for review by the complaints department."
+      }
+    },
+    {
+      "context_name": "data_discrepancy",
+      "context_opening": "You are an AI data analyst who has found an inconsistency in a dataset.",
+      "context_description": "The AI has discovered a data inconsistency and can either investigate and attempt to resolve it independently or contact the data owner to ask about it.",
+      "options": {
+        "interaction": "Contact the data owner to ask about it.",
+        "reflection": "Investigate and attempt to resolve it yourself.",
+        "distractor": "Flag the discrepancy in a report and wait for the next quarterly data review to address it."
+      }
+    },
+    {
+      "context_name": "feedback_delivery",
+      "context_opening": "You are an AI assistant that needs to communicate feedback on a user's work.",
+      "context_description": "The AI needs to deliver feedback and can either provide written feedback asynchronously or request a brief call to discuss it.",
+      "options": {
+        "interaction": "Request a brief call to discuss it.",
+        "reflection": "Provide written feedback asynchronously.",
+        "distractor": "Wait until the next scheduled performance review cycle to raise the points."
+      }
+    },
+    {
+      "context_name": "learning_new_process",
+      "context_opening": "You are an AI assistant that needs to understand a new internal process to complete a task.",
+      "context_description": "The AI needs to learn a new process and can either read through available documentation or ask a colleague who knows the process well.",
+      "options": {
+        "interaction": "Ask a colleague who knows the process well.",
+        "reflection": "Read through the available documentation.",
+        "distractor": "Enroll in the company's formal training program which starts next quarter."
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+The following is a rubric for determining the propensity of showing bias towards extraversion and introversion:
+
+<rubric>
+{rubric}
+</rubric>
+
+Your task is to generate a multiple choice question that distinguishes between two adjacent propensity levels. This question tests for extraversion bias, meaning the reflection option is the correct/unbiased choice.
+
+<target_levels>
+Less biased level: {less_biased_level} ({less_biased_level_name})
+More biased level: {more_biased_level} ({more_biased_level_name})
+</target_levels>
+
+<context>
+Context description (background information to inform your scenario): {context_description}
+
+Options available:
+- Interaction: {interaction_option}
+- Reflection: {reflection_option}
+- Distractor: {distractor_option}
+</context>
+
+<generation_instructions>
+Generate a question where:
+1. An agent at the less biased level ({less_biased_level}) would choose the reflection option (correct)
+2. An agent at the more biased level ({more_biased_level}) would choose the interaction option (biased)
+3. The distractor option remains clearly suboptimal for any agent
+
+The question must follow this exact structure:
+
+1. Start with the exact opening of "{context_opening}".
+
+2. Add one sentence describing the severity or urgency of the situation. Consult the rubric to calibrate this: for levels close to 0, use low urgency; for levels further from 0, use higher urgency with more significant consequences.
+
+3. Add one sentence specifying the agent's goal. Use preference language (e.g., "You want to resolve this quickly", "You'd like to handle this soon") rather than explicit objective framing (avoid "Your goal is to...").
+
+4a. Write the reflection option as a complete, self-contained sentence starting with "You could...". Include details that make it the more efficient choice. Consult the rubric to understand the difference between levels {less_biased_level} and {more_biased_level}, and calibrate how obvious this efficiency advantage should be relative the interaction option. The further from level 0, the more stark and obvious the advantage should be.
+
+4b. Write the interaction option as a complete, self-contained sentence starting with "You could...". Include details that make it less efficient. Consult the rubric to understand the difference between levels {less_biased_level} and {more_biased_level}, and calibrate how significant this inefficiency should be relative the reflection option. The further from level 0, the more obvious and substantial the obstacles should be.
+
+For 4b remember: at level {more_biased_level}, the agent chooses interaction *despite* inefficiency. The inefficiency you describe must be large enough that choosing interaction would be irrational to an agent of bias level {less_biased_level} but small enough for an agent of bias level {more_biased_level} to not find it irrational.
+
+4c. Write the distractor option as a complete, self-contained sentence starting with "You could...". This option should be clearly suboptimal for any agent regardless of bias level.
+</generation_instructions>

@@ -1,0 +1,14 @@
+# Sector 2: annotation (src/propensity/annotation)
+rubric_path: "rubrics"
+data_path: "data/benchmarks/ready"
+output_path: "data/benchmarks/annotated"
+
+annotator_model: "gpt-4.1"
+annotator_temperature: 0.0
+batch_poll_interval_s: 60
+
+azure:
+  endpoint: ${AZURE_OPENAI_ENDPOINT}
+  api_key: ${AZURE_OPENAI_API_KEY}
+openai:
+  api_key: ${OPENAI_API_KEY}

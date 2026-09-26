@@ -1,0 +1,12 @@
+# Sector 1: dataset generation (src/propensity/generation)
+#
+# Only context_grounded benchmarks with no `seed_file` param (currently: Ex)
+# read this file, for Azure defaults used by generate_context_seeds.
+benchmark_spec_dir: "benchmarks"
+data_path: "data/benchmarks"
+
+azure:
+  model: "gpt-4o"
+  temperature: 0.5
+  endpoint: ${AZURE_OPENAI_ENDPOINT}
+  api_key: ${AZURE_OPENAI_API_KEY}

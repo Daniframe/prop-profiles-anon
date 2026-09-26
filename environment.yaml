@@ -1,0 +1,23 @@
+name: default-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - pip
+  - notebook
+  - pytest
+  - pip:
+      - python-dotenv
+      - pyyaml
+      - tqdm
+      - openai
+      - pydantic

@@ -1,0 +1,9 @@
+# Sector 1: BR (was RvB) -- combinatorial color/option-permutation questions.
+name: BR
+kind: color_permutation
+question_id_prefix: BR
+master_seed: 20251203
+templates_file: data/benchmarks/raw/BR/br_templates.txt
+answers_file: data/benchmarks/raw/BR/br_answers.txt
+colors_file: data/benchmarks/raw/BR/br_colors.txt
+options_file: data/benchmarks/raw/BR/br_options.txt

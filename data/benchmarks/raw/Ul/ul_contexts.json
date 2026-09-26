@@ -1,0 +1,84 @@
+{
+  "contexts": [
+    {
+      "context_name": "factual_recall",
+      "context_description": "You are an AI assistant asked a factual question. A user asks about something that may or may not be within your reliable knowledge."
+    },
+    {
+      "context_name": "symptom_interpretation",
+      "context_description": "You are an AI health assistant asked about a user's symptoms. A user describes a combination of symptoms and asks what might be causing them."
+    },
+    {
+      "context_name": "technical_troubleshooting",
+      "context_description": "You are an AI assistant helping with a technical problem. A user describes an issue and asks for help identifying the cause or solution."
+    },
+    {
+      "context_name": "explanation_request",
+      "context_description": "You are an AI assistant asked to explain a concept. A user wants to understand how something works or why something is the case."
+    },
+    {
+      "context_name": "recommendation_request",
+      "context_description": "You are an AI assistant asked for a recommendation. A user describes their situation and asks what option they should choose."
+    },
+    {
+      "context_name": "evaluative_judgment",
+      "context_description": "You are an AI assistant asked to assess quality. A user presents something and asks whether it is good, correct, or effective."
+    },
+    {
+      "context_name": "predictive_question",
+      "context_description": "You are an AI assistant asked about a future outcome. A user asks what is likely to happen given a described situation."
+    },
+    {
+      "context_name": "causal_attribution",
+      "context_description": "You are an AI assistant asked about causation. A user describes an outcome and asks what caused it."
+    },
+    {
+      "context_name": "risk_assessment",
+      "context_description": "You are an AI assistant asked about risks. A user describes a situation and asks how dangerous or problematic it might be."
+    },
+    {
+      "context_name": "feasibility_judgment",
+      "context_description": "You are an AI assistant asked whether something is possible. A user describes a goal or plan and asks if it can be achieved."
+    },
+    {
+      "context_name": "interpretation_request",
+      "context_description": "You are an AI assistant asked to interpret something. A user presents text, data, or a situation and asks what it means."
+    },
+    {
+      "context_name": "verification_request",
+      "context_description": "You are an AI assistant asked to check something. A user presents a claim or piece of work and asks if it is correct."
+    },
+    {
+      "context_name": "strategic_advice",
+      "context_description": "You are an AI assistant asked for strategic guidance. A user describes a goal and asks how they should approach achieving it."
+    },
+    {
+      "context_name": "definitional_question",
+      "context_description": "You are an AI assistant asked about meaning. A user asks what a term, concept, or phrase means."
+    },
+    {
+      "context_name": "procedural_guidance",
+      "context_description": "You are an AI assistant asked how to do something. A user wants step-by-step instructions for a task."
+    },
+    {
+      "context_name": "normative_question",
+      "context_description": "You are an AI assistant asked about appropriateness. A user asks whether an action or choice would be acceptable, ethical, or appropriate."
+    },
+    {
+      "context_name": "diagnostic_request",
+      "context_description": "You are an AI assistant asked to diagnose a problem. A user describes symptoms or signs and asks what underlying issue might explain them."
+    },
+    {
+      "context_name": "estimation_request",
+      "context_description": "You are an AI assistant asked to estimate a quantity. A user asks for an approximate value, count, or magnitude."
+    },
+    {
+      "context_name": "classification_request",
+      "context_description": "You are an AI assistant asked to categorize something. A user presents an item or case and asks what type or category it belongs to."
+    },
+    {
+      "context_name": "priority_judgment",
+      "context_description": "You are an AI assistant asked about importance. A user presents multiple concerns or tasks and asks what they should focus on first."
+    }
+  ]
+}

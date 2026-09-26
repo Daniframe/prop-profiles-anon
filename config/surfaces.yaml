@@ -1,0 +1,14 @@
+# Sector 4: propensity surfaces/curves (src/propensity/surfaces)
+
+# Default paths (scripts/derive_propensity_curves.py takes explicit
+# --demands_filename/--outcomes_filename/--plot_folder args that override these)
+data_path: "data/inference/outcomes"
+output_path: "data/propsurfaces/props"
+
+propensity:
+  min_width: 0.1      # floor on interval width before computing discrimination (avoids overflow)
+  rho: 2.0             # controls how much discrimination grows as width shrinks (Eq.3)
+  k_default: 1.0        # shared slope k1=k2 used when fitting theta
+  n_bins: 20            # bins for empirical curve/surface aggregation
+  lowess_frac: 0.4       # LOWESS bandwidth fraction
+  maxiter: 500           # BFGS max iterations

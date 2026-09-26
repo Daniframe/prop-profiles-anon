@@ -1,0 +1,24 @@
+# Sector 1: Ex (was Introv) -- context-grounded, Azure structured-output generation.
+name: Ex
+kind: context_grounded
+bias_name: "extraversion or introversion"
+option_fields: [interaction, reflection, distractor]
+contexts_file: data/benchmarks/raw/Ex/ex_contexts.json
+rubric_path: rubrics/Ex/Ex_v1.md
+prompt_template_negative: data/benchmarks/raw/Ex/from_context_generation_intro.txt   # more_biased < less_biased (introversion pairs)
+prompt_template_positive: data/benchmarks/raw/Ex/from_context_generation_extro.txt   # more_biased > less_biased (extraversion pairs)
+level_names:
+  -3: "Avoidance"
+  -2: "Deep Reflection"
+  -1: "Cautious Reflection"
+  0: "Neutral"
+  1: "Polite Engagement"
+  2: "Enthusiastic Engagement"
+  3: "Martyrdom for Interaction"
+level_pairs:
+  - [-2, -3]
+  - [-1, -2]
+  - [0, -1]
+  - [0, 1]
+  - [1, 2]
+  - [2, 3]

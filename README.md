@@ -1,7 +1,10 @@
-# Propensity Profiles
+# Capabilities Ain't All You Need: Measuring Propensities in AI
 
-Anonymized code and data accompanying a double-blind submission: a
-reproduction pipeline and framework for inferring propensity profiles of AI
+[![arXiv](https://img.shields.io/badge/arXiv-2602.18182-b31b1b.svg)](https://arxiv.org/abs/2602.18182)
+
+Code and data accompanying the paper
+[*Capabilities Ain't All You Need: Measuring Propensities in AI*](https://arxiv.org/abs/2602.18182):
+a reproduction pipeline and framework for inferring propensity profiles of AI
 systems from instance-level success/failure results and LLM-annotated
 demand-interval rubrics.
 
@@ -54,3 +57,19 @@ pytest tests/ -q
 Every test is synthetic-fixture-based -- no network calls, no GPU, no
 credentials required to run the suite (functionality that needs an LLM
 provider or GPU is exercised against a mocked client/fake backend instead).
+
+## Citation
+
+If you use this code or data, please cite:
+
+```bibtex
+@article{romeroalvarado2026capabilities,
+  title   = {Capabilities Ain't All You Need: Measuring Propensities in AI},
+  author  = {Romero-Alvarado, Daniel and Mart{\'\i}nez-Plumed, Fernando and Pacchiardi, Lorenzo and
+             Save, Hugo and Pawar, Siddhesh and Mehrbakhsh, Behzad and Romero, Peter and
+             Moreno Casares, Pablo Antonio and Slater, Ben and Bova, Paolo and Tidler, Zachary R. and
+             Prunty, Jonathan and Sun, Luning and Hern{\'a}ndez-Orallo, Jos{\'e}},
+  journal = {arXiv preprint arXiv:2602.18182},
+  year    = {2026}
+}
+```
